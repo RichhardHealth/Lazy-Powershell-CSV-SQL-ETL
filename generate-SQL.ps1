@@ -1,9 +1,9 @@
-﻿# ==========================================================================================
+# ==========================================================================================
 # Description: A script to look in a folder and for each CSV import in to databse as a table
-# Created: 13/05/2017 
+# Created: 2023-06-23 
 # Created by: Richard Holley
 # Modifications:
-# 13/05/2016 - Version 1 - RH - Original script
+# 2023-06-23 - Version 1 - RH - Original script
 # ==========================================================================================
 
 # User Parameters (change these)
@@ -12,20 +12,16 @@
 $folderPath = "C:\Path\To\CSV\Folder" #No trailing \ for folder path
 
 # Set the SQL server and database connection details
-$serverName = "WSSQL0193\SQL01"
+$serverName = "SERVERNAME\SQLINSTANCE"
 $databaseName = "Test"
 $tableNamePrefix = "CSVTable_"
 $tableNamePostfix =""
 
 
 
-# System Parameters (change these)
+# System Parameters (No need to change these)
 # ==========================================================================================
-
 $logPath="c:\Scripts\Test\Log\1.txt"
-
-
-
 
 
 
